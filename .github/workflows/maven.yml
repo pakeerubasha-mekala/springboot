@@ -10,6 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
+  runs-on: self-hosted
   build:
 
     runs-on: ubuntu-latest
